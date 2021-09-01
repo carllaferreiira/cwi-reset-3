@@ -46,19 +46,16 @@ public class Exercicio10_1 {
 				System.out.print(nota + "");
 			}
 			System.out.println();
-			
-			for (int i=ø; i<notasAlunos. length; i++){  
-					//System.out. print(notasAIunosCi] + ");
-					for (int j=ø; j<notasAlunos[i].length; j++){
-					System.out.print(notasAlunos[i][j] + " - ");
-				
-		}
-					System. out. println(); 
-		}
-		
 
-		
-	}
+			for (int i = 0; i < notasAlunos.length; i++) {
+				// System.out. print(notasAIunosCi] + ");
+				for (int j = 0; j < notasAlunos[i].length; j++) {
+					System.out.print(notasAlunos[i][j] + " - ");
+
+				}
+				System.out.println();
+			}
+
+		}
 	}
 }
-
